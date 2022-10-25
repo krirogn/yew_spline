@@ -10,7 +10,7 @@ pub struct Props {
 
 #[function_component(Spline)]
 pub fn spline(props: &Props) -> Html {
-    // 
+    // A reference to the canvas
     let canvas: NodeRef = NodeRef::default();
 
     // Clone to move in effect hook
