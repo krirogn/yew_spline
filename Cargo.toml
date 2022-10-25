@@ -11,6 +11,9 @@ categories = ["wasm"]
 license = "MIT"
 readme = "README.md"
 
+[lib]
+crate-type = ["cdylib", "rlib"]
+
 [dependencies]
 yew = "0.19.3"
 wasm-bindgen = "0.2.83"
