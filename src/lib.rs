@@ -12,7 +12,7 @@ pub fn app() -> Html {
     html! {
         <>
             <h1>{"Yew Spline Design Test"}</h1>
-            <Spline url={"https://prod.spline.design/WP2SXm3jkcz8cWfl/scene.splinecode"} />
+            <Spline url={"assets/spline/scene.splinecode"} />
         </>
     }
 }
