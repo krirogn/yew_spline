@@ -7,8 +7,6 @@ use crate::spline::Spline;
 
 #[function_component(App)]
 pub fn app() -> Html {
-    
-
     html! {
         <>
             <h1>{"Yew Spline Design Test"}</h1>
