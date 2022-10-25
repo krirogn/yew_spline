@@ -5,7 +5,7 @@ use crate::spline_sys::Application;
 
 #[derive(Properties, Clone, PartialEq)]
 pub struct Props {
-    pub url: String,
+    pub scene: String,
 }
 
 #[function_component(Spline)]
@@ -20,7 +20,7 @@ pub fn spline(props: &Props) -> Html {
         // After render
         if let Some(canvas_element) = canvas_clone.cast::<HtmlCanvasElement>() {
             let spline = Application::new(&canvas_element);
-            spline.load(props_clone.url);
+            spline.load(props_clone.scene);
         }
 
         // Cleanup
