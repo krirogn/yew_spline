@@ -1,6 +1,6 @@
 [package]
 name = "yew_spline"
-version = "0.2.0"
+version = "0.2.1"
 edition = "2021"
 authors = ["kf@krirogn.dev <kf@krirogn.dev>"]
 description = "Spline runtime component for Yew"
