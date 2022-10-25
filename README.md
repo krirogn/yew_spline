@@ -16,7 +16,7 @@ Then you use the <Spline /> component in your Html.
 __Use the splinecode URL__
 ```rust
 use yew::prelude::*;
-use yew_spline::Spline;
+use yew_spline::spline::Spline;
 
 #[function_component(App)]
 pub fn app() -> Html {
@@ -52,7 +52,7 @@ In this example I have the standard src folder, but I have an assets folder with
 
 ```rust
 use yew::prelude::*;
-use yew_spline::Spline;
+use yew_spline::spline::Spline;
 
 #[function_component(App)]
 pub fn app() -> Html {
