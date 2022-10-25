@@ -1,0 +1,7 @@
+{
+    "workbench.tree.indent": 18,
+
+    "emmet.includeLanguages": {
+        "rust": "html",
+    }
+}

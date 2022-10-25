@@ -1,0 +1,10 @@
+[package]
+name = "yew_spline"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19.3"
+gloo = "0.8.0"
+wasm-bindgen = "0.2.83"
+web-sys = { version = "0.3.60", features = ["HtmlCanvasElement"] }
