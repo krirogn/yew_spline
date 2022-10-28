@@ -1,5 +1,9 @@
 # Yew Spline
-Yew Spline is a Spline runtime component for Yew based on the [@splinetool/runtime NPM package](https://www.npmjs.com/package/@splinetool/runtime), so you can display Spline scenes in Yew.   
+<p align="center">
+<a href="https://crates.io/crates/yew_spline" target="_blank"><img alt="Crates.io" src="https://img.shields.io/crates/v/yew_spline?style=for-the-badge"></a>
+<a href="https://crates.io/crates/yew_spline" target="_blank"><img alt="Crates.io" src="https://img.shields.io/crates/d/yew_spline?label=Downloads&style=for-the-badge"></a>
+</p>
+Yew Spline is a Spline runtime component for Yew based on Splines vanilla JS implementation, so you can display Spline scenes in Yew.   
    
 Spline is a 3d editor that let's you make interactive 3d scenes to be viewed on the web. For more information visit [https://spline.design/](https://spline.design/).
 
